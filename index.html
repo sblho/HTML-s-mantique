@@ -14,16 +14,16 @@
 #création des liens de navigation
     <nav>
         <ul>
-            <a href="#qu-est-ce-que-le-html">Qu'est-ce que le HTML ?</a>
-            <a href="#la-sémantique">La sémantique</a>
-            <a href="#les-balises-courantes">Les balises courantes</a>
-            <a href="#ressources">Ressources</a>
+            <li><a href="#qu-est-ce-que-le-html">Qu'est-ce que le HTML ?</a></li>
+            <li><a href="#la-sémantique">La sémantique</a></li>
+            <li><a href="#les-balises-courantes">Les balises courantes</a></li>
+            <li><a href="#ressources">Ressources</a></li>
         </ul>
     </nav>
 #contenu principal de la page
     <main>
 
-        <section>
+        <section id="qu-est-ce-que-le-html">
             <h2>Qu'est-ce que le HTML ?</h2>
             <p>
                 Le HTML (HyperText Markup Language) est le langage qui sert à structurer le contenu
@@ -32,7 +32,7 @@
             </p>
         </section>
 
-        <section>
+        <section id="la-sémantique">
             <h2>Pourquoi la sémantique ?</h2>
             <p>
                 On pourrait tout écrire avec une seule balise passe-partout, et le résultat visuel
@@ -43,11 +43,11 @@
             </p>
         </section>
 
-        <section>
+        <section id="les-balises-courantes">
             <h2>Les balises sémantiques courantes</h2>
             <p>
                 Voici les balises sémantiques les plus utilisées :
-            </p>
+            </p>       
         </section>
 
        
@@ -95,16 +95,16 @@
                 </p>
             </article>
 
-        </section>
+        
 
         <section>
             <h3>Les 3 étapes pour rendre une page plus sémantique</h3>
             <p>
-                <ul>
+                <ol>
                     <li>Lire le contenu de chaque bloc et se demander à quoi il sert vraiment</li>
                     <li>Choisir la balise qui décrit le mieux ce rôle</li>
                     <li>Vérifier que le rendu visuel n'a pas changé</li>
-                </ul>
+                </ol>
             </p>
         </section>
             
@@ -118,24 +118,29 @@
             </p>
         </aside>
 
-        <div>
-            <div>
-                <div>
-                    Exemple de structure sémantique : un en-tête, une navigation, un contenu
-                    principal découpé en sections, et un pied de page.
-                </div>
-            </div>
-        </div>
-
-    </div>
+        <section>
+            
+                <h3>Exemple de structure sémantique</h3>
+                <p>
+                    Un en-tête, une navigation, un contenu principal découpé en sections, et un pied de page.
+                </p>
+                
+        </section id="ressources">
+                <h2>Ressources</h2>
+                <p>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element">MDN Web Docs — HTML elements reference</a></li>
+                        <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">W3Schools — HTML5 Semantic Elements</a></li>
+                    </ul>
+                </p>
+        </section>  
+            
 #pied de page
     <footer>
         <p>© 2026 — Ressource pédagogique Simplon</p>
         <adress>
             Cité Numérique, 2 rue Marc Sangnier, 33130 Bègles</br>
-            <a href="mailto:contact@exemple.com"
-            contact@exemple.com
-            </a>    
+            <a href="mailto:contact@exemple.com">contact@exemple.com</a>
         </adress>
     </footer>
 
